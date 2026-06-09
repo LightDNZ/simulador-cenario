@@ -255,6 +255,10 @@ export default function Home() {
             <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
               Vercel Free Tier
             </a>
+            {" "}· Feito por{" "}
+            <a href="https://shirodeveloper.vercel.app" target="_blank" rel="noopener noreferrer">
+              Gabriel Barbosa 
+            </a>
           </p>
         </footer>
       </main>
