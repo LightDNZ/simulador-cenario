@@ -14,7 +14,7 @@ import { sanitizarTexto, validarCenario, verificarRateLimit } from "../../lib/sa
 
 // Configuração do timeout da Vercel para esta route
 export const config = {
-  maxDuration: 30, // segundos (máximo no free tier)
+  maxDuration: 60, // segundos (máximo no free tier)
 };
 
 export default async function handler(req, res) {
