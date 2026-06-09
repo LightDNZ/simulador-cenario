@@ -137,7 +137,7 @@ export default function Home() {
 
         {/* ── Hero ── */}
         <div className={styles.hero}>
-          <div className={styles.badge}>Powered by Hugging Face</div>
+          <div className={styles.badge}>Powered by SHIRODEV</div>
           <h1 className={styles.title}>
             Simulador de{" "}
             <span className={styles.titleGradient}>Cenários</span>
@@ -248,8 +248,8 @@ export default function Home() {
         <footer className={styles.footer}>
           <p>
             Simulações geradas por IA · Modelo via{" "}
-            <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">
-              Hugging Face
+            <a href="https://openrouter.ai" target="_blank" rel="noopener noreferrer">
+              OpenRouter
             </a>
             {" "}· Deploy no{" "}
             <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
